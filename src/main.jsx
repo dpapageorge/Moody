@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import EntryForm from './EntryForm'
+import App from './App'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <EntryForm />
+    <App />
   </StrictMode>,
 )
